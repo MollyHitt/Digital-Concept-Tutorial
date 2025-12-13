@@ -1,0 +1,20 @@
+#Converting numbers to Hexadecimal
+Hexadecimal is a base 16 number system. Since we only have 10 number digits (0-9), we use the first six letters of the alphabet to represent the values 10 through 15.
+## 1. Hex Table
+| Hex Digit | Decimal Value |
+| :--- | :--- |
+| **0 - 9** | 0 - 9 |
+| **A** | 10 |
+| **B** | 11 |
+| **C** | 12 |
+| **D** | 13 |
+| **E** | 14 |
+| **F** | 15 |
+## 2. Similar to Binary, we will use continuous divison to get out result. Instead of using 2 this time, we will use 6.
+###3. In this example, we will use 45.
+| Step | Operation | Quotient | Remainder | Hex Remainder |
+|------|-----------|----------|-----------|---------------|
+|  1   |   45/16   |     2    |     13    |       D       |
+|  2   |    2/16   |     0    |     2     |       2       |
+## 4. Read the remainder from last to first. So, the result is 2D
+[Back to Binary Conversion](Binary) | [Back to Home](README.md)
