@@ -1,0 +1,20 @@
+# Converting Decimal To Binary
+## Dividing By Two
+The most common and simple way to convert numbers to binary. 
+### 1. Divide and Write
+- [] First, take your number and divide it by two
+- [] If it does not divide evenly, record the remainder as 1. If it divides without a remainder, record the remainder as 0. 
+### 2. Repeat the Process
+- [] Repeat the process recording the 1's and 0's until there is not a whole number to divide
+### 3. Read the Result 
+- [] Read the remainders backwards(from last to first) 
+### 4. Example Using 13
+| Step | Process | Quotient | Remainder |
+|------|---------|----------|-----------|
+|  1   |   13/2  |     6    |     1     |
+|  2   |   6/2   |     3    |     0     |
+|  3   |   3/2   |     1    |     1     |
+|  4   |   1/2   |     0    |     1     |
+### 5. Result
+**Since we must read the result from last to first remainder, the number 13 in binary would be 1011
+[Back to Home](README.md)
